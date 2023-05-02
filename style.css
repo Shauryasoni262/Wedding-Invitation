@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  
+  
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Roboto&display=swap ');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  
+  
+  
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f4d5ff;
+}
+.Image{
+    background: url('couple.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    filter: brightness(130%);
+    
+}
+.Names{
+    display: flex;
+justify-content: center;
+padding-top:1vh;
+    height: 100vh;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 6vh;
+    z-index: 1;
+    opacity: 0.6;
+    text-decoration: underline;
+}
+.Marriage{
+    font-family: Times new roman;
+color: white;
+position: absolute;
+top:8.5vh;
+
+font-size: 2.5vh;
+opacity: 0.5;
+}
+.center5{
+    display: flex;justify-content: center;
+}
+.Date{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+position: absolute;
+top:11.5vh;
+
+font-size: 2.5vh;
+font-weight: bold;
+opacity: 0.5;
+font-style: italic;
+}
+.article{
+    height: auto;
+}
+.Names2{
+font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    color: grey;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.image{
+    height: 30vh;
+    width: 50vh;
+    border-radius: 2vh;
+    box-shadow: .5vh .5vh .5vh gray;
+   }
+   .Paragraph{    
+    margin:3vh 4vh 0 4vh;
+    font-style: italic;
+    color:gray;
+    line-height: 2;
+   } 
+article{
+    text-align: center;
+}
+button.Details{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 6vw;
+    border-radius: .5vw;
+    padding: 1vw;
+    margin-top: 2.5vh;
+    margin-bottom: 3.5vh;
+}
+button.Details:active:hover{
+    background: lightblue;
+}   
+.flower{
+    background-repeat: no-repeat;    
+    background-size: cover;
+    width:100%;   
+    z-index: -1;
+}   
+  .position {
+      position: relative;     
+  }
+.Invitation{
+position: absolute;
+top: 40vh;
+left: 9vh;
+    font-size: 6vh;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    z-index: 5;   
+    font-style: italic;
+}  
+  .Of{
+      font-weight: lighter;
+  }  
+  .color{
+      background: #ffd5df;
+      height: auto;
+      margin-top: -2vh;
+  }
+  #Wedding{
+  font-family: 'Raleway', sans-serif;
+      padding-top: 7vh;
+      font-size: 4vh;
+      display: flex;
+      justify-content: center;
+      color: grey;
+      font-weight: bold;
+      font-style: italic;
+  }
+  .Details{
+      box-shadow: .5vh .5vh .5vh #000000d3;
+  }
+  .Place{
+      background-repeat: no-repeat;    
+    background-size: cover;
+    height: 30vh; 
+    width: 50vh;
+    border-radius: 2vh;
+    box-shadow: .5vh .5vh .5vh gray;
+    
+    margin-top:8vh;
+    margin-bottom:7vh;
+  }
+  .center{
+      display: flex;
+      justify-content: center;
+  }
+  .place{
+  
+  font-family:'Raleway', sans-serif; 
+      display: grid;
+      place-items:center;
+      color:#000000a6;
+  }
+
+.when{
+    font-weight: 500;
+    font-size: 5vh;
+    padding-top: 5vh;
+   
+}
+.time{
+    padding: 3.5vh 0 3.5vh 0;
+    font-size: 2vh;
+}
+.time2{
+    padding-bottom: 20vh;
+    font-size: 2vh;
+}
+.time3{
+    font-size: 2vh;
+    
+}
+section{
+    background:#ffeaea ;
+    height: 80vh;
+    text-align: center;
+    font-family:'Raleway', sans-serif; 
+}
+.Come{
+    font-size: 6vh;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 15vh 0 5vh 0;
+}
+.respond{
+    font-weight: lighter;
+    letter-spacing: 0.28em;
+    font-size: 2vh;
+    padding-top: 5vh;
+}
+.rsvp{
+    color: white;
+    background: #ff808a;
+    border: none;
+    border-radius: 1vh;
+    font-size: 5vh;
+    padding: 3vh;
+    font-weight:lighter ;
+    margin-top: 10vh;
+   letter-spacing: 0.2em;
+    width: 35vh;
+}
+.rsvp:hover{
+    background: #ff001f;
+    box-shadow: 0.5vh .5vh .5vh .5vh #ff555f;
+    
+}
+
+/* popup */
+.popup {
+  display: none;
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.popup-content{
+    height: 60vh;
+    width: 45vh;
+    background: white;
+    padding: 2vh;
+    border-radius: 1vh;
+    position: relative;
+}
+#modal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    font-family:'Raleway', sans-serif; 
+}
+.can{
+    font-size: 6vh;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    padding: 1vh 0 1vh 0;
+}
+.request{
+    font-size: 2vh;
+    font-weight: lighter;
+    padding: 1vh 0 2vh 0;
+}
+#name{
+    width: 90%;
+    padding: 2vh;
+    font-size: 2vh;
+    font-weight: 300;
+}
+.name3{
+    font-style: italic;
+    padding: 3vh;
+}
+.btn{
+    width: 90%;
+    padding: 2vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: .5vh;
+    color: white;
+    font-weight: 400;
+    
+}
+.btn1{
+    background:#45bf30;
+    transition: transform 0.5s ease;
+  }
+.btn2{
+    background: #ff352a;
+    transition: transform 0.5s ease;
+    }
+.btn1:hover:active{
+   box-shadow: 1vh 1vh 1vh #00880d;
+   transform: translateY(-.8vh);
+   background: #00c513;
+}
+.btn2:hover:active{
+    box-shadow: 1vh 1vh 1vh red;
+    transform: translateY(-.8vh);
+   background: red;
+}
+.foot{
+padding-top: 4vh;
+padding-bottom: 4vh;
+text-align: center;     
+        
+    background: #000000e2;
+    
+}
+.connect{
+color: white;
+    font-size: 2.5vh;
+    font-family: bold;
+    text-decoration: underline;
+    font-family:'Raleway', sans-serif; 
+    font-weight: bolder;
+}
+.fa-brands{
+    color: white;
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-right: 3vh;
+}
+a{
+    text-decoration: none;
+    
+}
+.fa-brands:hover{
+    filter: drop-shadow(.2vh .2vh .2vh #00ffab);
+     filter: drop-shadow(.4vh .4vh .4vh #00ff6c);
+
+}
